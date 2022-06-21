@@ -1,1 +1,1 @@
-target_include_directories( library ${CMAKE_CURRENT_LIST_DIR} )
+target_include_directories( library PUBLIC ${CMAKE_CURRENT_LIST_DIR} )
