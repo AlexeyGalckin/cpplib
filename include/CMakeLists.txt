@@ -1,3 +1,1 @@
-#
-add_library( template_header_library INTERFACE )
-target_include_directories( template_header_library INTERFACE ${CMAKE_CURRENT_LIST_DIR} )
+target_include_directories( library ${CMAKE_CURRENT_LIST_DIR} )
